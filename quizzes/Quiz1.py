@@ -5,9 +5,9 @@ CS373: Quiz #1 (5 pts)
 """
 
 """ ----------------------------------------------------------------------
-1. List any TWO pieces of advice.
-   [The Harvard Guide to Collegiate Happiness]
-   (2 pts)
+ 1. List any TWO pieces of advice.
+    [The Harvard Guide to Collegiate Happiness]
+    (2 pts)
 
 meet the faculty
 take a mix of courses
@@ -19,9 +19,9 @@ participate in extracurricular activities
 """
 
 """ ----------------------------------------------------------------------
-2. List any TWO pieces of advice.
-   [Advice for Computer Science College Students]
-   (2 pts)
+ 2. List any TWO pieces of advice.
+    [Advice for Computer Science College Students]
+    (2 pts)
 
 write
 learn C
