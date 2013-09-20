@@ -93,19 +93,19 @@ RMSE.py
 [GCC 4.2.1 Compatible Apple Clang 4.0 (tags/Apple/clang-418.0.60)]
 
 rmse_1 (while)
-0.262 milliseconds
+0.261 milliseconds
 
 rmse_2 (zip, for)
-0.384 milliseconds
+0.392 milliseconds
 
 rmse_3 (zip, reduce)
-0.339 milliseconds
+0.328 milliseconds
 
 rmse_4 (map, sum)
-0.249 milliseconds
+0.253 milliseconds
 
 rmse_5 (zip, list comprehension, sum)
-0.268 milliseconds
+0.237 milliseconds
 
 Done.
 """

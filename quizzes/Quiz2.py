@@ -45,7 +45,7 @@ nothing to commit (working directory clean)
 
 """ ----------------------------------------------------------------------
  2. What are the four elements of the Circle of Life?
-    [XP: Ch.2, Pg. 16]
+    [XP: Ch. 2, Pg. 16]
     (1 pt)
 
 define, estimate, choose, build
