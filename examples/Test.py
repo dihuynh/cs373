@@ -62,6 +62,16 @@ def rmse_5 (a, p) :
     v = sum([(x - y) ** 2 for x, y in z], 0.0)
     return math.sqrt(v / s)
 
+def rmse_6 (a, p) :
+    """
+    O(1n) in space
+    O(2n) in time
+    """
+    s = len(a)
+    z = zip(a, p)
+    v = sum(((x - y) ** 2 for x, y in z), 0.0)
+    return math.sqrt(v / s)
+
 def test (f, s) :
     print f.__name__ + " (" + s + ")"
     assert str(f((2, 3, 4), (2, 3, 4))) == "0.0"
@@ -84,6 +94,7 @@ test(rmse_2, "zip, for")
 test(rmse_3, "zip, reduce")
 test(rmse_4, "map, sum")
 test(rmse_5, "zip, list comprehension, sum")
+test(rmse_6, "zip, generator,          sum")
 
 print "Done."
 
@@ -93,19 +104,22 @@ RMSE.py
 [GCC 4.2.1 Compatible Apple Clang 4.0 (tags/Apple/clang-418.0.60)]
 
 rmse_1 (while)
-0.262 milliseconds
+0.428 milliseconds
 
 rmse_2 (zip, for)
-0.384 milliseconds
+0.626 milliseconds
 
 rmse_3 (zip, reduce)
-0.339 milliseconds
+0.547 milliseconds
 
 rmse_4 (map, sum)
-0.249 milliseconds
+0.391 milliseconds
 
 rmse_5 (zip, list comprehension, sum)
-0.268 milliseconds
+0.363 milliseconds
+
+rmse_6 (zip, generator,          sum)
+0.372 milliseconds
 
 Done.
 """
