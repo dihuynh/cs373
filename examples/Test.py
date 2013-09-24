@@ -65,7 +65,7 @@ def rmse_5 (a, p) :
 def rmse_6 (a, p) :
     """
     O(1n) in space
-    O(2n) in time
+    O(1n) in time
     """
     s = len(a)
     z = zip(a, p)
