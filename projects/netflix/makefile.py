@@ -33,13 +33,11 @@ Netflix.log:
 Netflix.zip: makefile                                   \
              Netflix.html Netflix.log Netflix.py        \
              RunNetflix.in RunNetflix.out RunNetflix.py \
-             SphereNetflix.py                           \
              TestNetflix.py TestNetflix.out
 	zip -r Netflix.zip                                \
 	       makefile                                   \
            Netflix.html Netflix.log Netflix.py        \
            RunNetflix.in RunNetflix.out RunNetflix.py \
-           SphereNetflix.py                           \
            TestNetflix.py TestNetflix.out
 
 RunNetflix.out: RunNetflix.in RunNetflix.py
