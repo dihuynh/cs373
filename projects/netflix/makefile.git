@@ -4,7 +4,9 @@ config:
 	git config -l
 
 count:
-	ls -al | grep "\.c++" | wc
+	ls -al | grep "\.py"  | wc
+	ls -al | grep "\.in"  | wc
+	ls -al | grep "\.out" | wc
 
 log:
 	git log
