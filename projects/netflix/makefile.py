@@ -16,13 +16,13 @@ diff: RunNetflix.in RunNetflix.out RunNetflix.py
 	rm RunNetflix.tmp
 
 turnin-list:
-	turnin --list thunt cs373pj2
+	turnin --list lara cs373pj2
 
 turnin-submit: Netflix.zip
-	turnin --submit thunt cs373pj2 Netflix.zip
+	turnin --submit lara cs373pj2 Netflix.zip
 
 turnin-verify:
-	turnin --verify thunt cs373pj2
+	turnin --verify lara cs373pj2
 
 Netflix.html: Netflix.py
 	pydoc -w Netflix
