@@ -5,7 +5,7 @@ CS373: Quiz #13 (5 pts)
 """
 
 """ ----------------------------------------------------------------------
- 1. Fill in the TWO blanks below:
+ 1. Fill in the TWO blanks below.
     [The Open-Closed Principle]
     (2 pts)
 
