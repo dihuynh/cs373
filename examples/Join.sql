@@ -95,7 +95,8 @@ Student theta join[Student.sID = Apply.sID] Apply
 select "Theta Join";
 
 # select *
-#     from Student inner join Apply
+#     from Student
+#     inner join Apply
 #     where Student.sID = Apply.sID;
 
 # select *
